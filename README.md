@@ -1,12 +1,42 @@
-- 👋 Hi, I’m @深几许
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# 👋 Hi，我是 @深几许（刘星岳）
 
-<!---
-skjfjbasjfbksud/skjfjbasjfbksud is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🎓 山东财经大学 · 计算机科学与技术 · 预计2026年毕业  
+🔍 正在寻找后端开发实习机会（可全职实习6个月以上）  
+💬 主攻 Java 后端，关注系统架构设计、高并发优化、分布式技术等  
+
+---
+
+## 🛠 技术关键词：
+`Java` `Spring Boot` `Redis` `MySQL` `分布式锁` `任务调度` `缓存设计` `并发控制` `Guava Cache` `Redisson` `线程池`
+
+---
+
+## 🚀 项目与实践经历：
+
+🔧 **牧原集团 - 生产运营系统优化（实习）**  
+- **性能优化与缓存设计**：针对接口响应慢（500ms）+数据库高压（QPS 2000）问题，设计 Guava LocalCache + Redis 多级缓存，结合缓存预热、精细化淘汰、异步失效等机制，将响应时间降至 300ms（提升40%）  
+- **分布式任务调度设计**：引入 Redisson 分布式锁（Watchdog 自动续期）+线程池拆分，解决任务冲突与事务回滚，系统吞吐从 500QPS 提升至 2500QPS  
+- **高并发抽奖系统（旅游活动）**：使用 Redis 原子 Lua 脚本 实现库存扣减 + 黑产拦截 + 概率分桶算法，将性能从 100QPS 提升至 700QPS，用户参与度提升 35%  
+- **代码治理与用户体验优化**：静态分析清理30%无效代码，优化发奖逻辑，用户满意度提升25%
+
+🛠 **TaskDrift - 异步任务调度框架（自研）**  
+- **动态分表扩容策略**：基于任务量自动扩容替代传统分片方案，吞吐从 500QPS 提升至 2000QPS  
+- **分布式锁优化**：将 MySQL 行锁升级为 Redisson 锁，人工干预减少 80%，数据处理效率提升 70%
+
+---
+
+## 🏆 荣誉奖项：
+- 国家励志奖学金（连续获得）
+- 山东省级奖学金
+
+---
+
+## 📫 联系方式：
+- Email: liuxingyue@example.com
+- WeChat / QQ / 手机：可私聊获取~
+
+---
+
+## ⚡ Fun Fact：
+喜欢研究性能瓶颈，沉迷打磨每一行代码的质量，热衷造轮子和拆轮子 😄
+
